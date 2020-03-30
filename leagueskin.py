@@ -4,6 +4,8 @@ import shutil
 from download import download
 from lxml import etree
 
+# 下载leagueskin.net网站软件并解压到桌面skin目录，win
+# http://leagueskin.net
 
 def leagueskin():
     url = 'http://leagueskin.net/p/download-mod-skin-2020-chn'
