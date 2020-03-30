@@ -5,6 +5,7 @@ from multiprocessing import Process
 import threading
 
 # bt之家 种子文件下载，使用队列
+# 需要创建8bt目录
 
 class Bbtt:
 
