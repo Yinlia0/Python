@@ -5,7 +5,7 @@ from multiprocessing import Process
 import threading
 
 # bt之家 种子文件下载，使用队列
-# 需要创建8bt目录
+# 需要在脚本当前目录创建名为 “8bt” 的文件夹
 
 class Bbtt:
 
