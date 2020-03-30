@@ -10,10 +10,10 @@ class Xl720:
         self.proxy = {
                 "http": "http://127.0.0.1:7890"
             }
-        self.sql = mysql.connector.connect(host="10.154.4.192",
-                                           port="3310",
+        self.sql = mysql.connector.connect(host="127.0.0.1",
+                                           port="3306",
                                            user="root",
-                                           passwd="pLgn3k38F7PBISPZ",
+                                           passwd="********",
                                            db="python")
         self.mysql = self.sql.cursor()
 
