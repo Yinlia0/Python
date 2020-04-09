@@ -6,6 +6,7 @@ from lxml import etree
 
 # 下载leagueskin.net网站软件并解压到桌面skin目录，win
 # http://leagueskin.net
+# pip install six download requests tqdm
 
 def leagueskin():
     url = 'http://leagueskin.net/p/download-mod-skin-2020-chn'
